@@ -1,5 +1,9 @@
 package model;
 
+/**
+ * Endereco físico que pertence a um usuário
+ *
+ */
 public class Endereco {
 	private Integer id;
 	private String rua;

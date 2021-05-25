@@ -1,5 +1,8 @@
 package model;
 
+/**
+ * Usuário que pode ser considerado colaborador
+ */
 public class UsuarioColaborador extends Usuario {
 	private String profissaoRamo;
 	private String siteBlog;

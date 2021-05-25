@@ -1,5 +1,8 @@
 package model;
 
+/**
+ * Solicitação de renovação do período de empréstimo de um empréstimo
+ */
 public class SolicitacaoRenovacaoEmprestimo extends Solicitacao {
 	private Emprestimo emprestimo;
 

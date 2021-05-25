@@ -1,5 +1,10 @@
 package model;
 
+/**
+ * Solicitação de avaliação de um novo equipamento a ser doado
+ * @author l_blo
+ *
+ */
 public class SolicitacaoDoacao extends Solicitacao {
 	private Equipamento equipamento;
 	private UsuarioDoador doador;
@@ -16,4 +21,6 @@ public class SolicitacaoDoacao extends Solicitacao {
 	public void setDoador(UsuarioDoador doador) {
 		this.doador = doador;
 	}
+
+
 }

@@ -2,6 +2,10 @@ package model;
 
 import java.util.Date;
 
+/**
+ * Indivíduo que fará uso do equipamento emprestado
+ *
+ */
 public class Beneficiario {
 	private Integer id;
 	private String nome;

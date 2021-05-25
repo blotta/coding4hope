@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 import util.DateRange;
 
+/**
+ * Solicitação de empréstimo de um equipamento
+ */
 public class SolicitacaoEmprestimo extends Solicitacao {
 	private ArrayList<EquipamentoClassificacao> equipamentos;
 	private Beneficiario beneficiario;

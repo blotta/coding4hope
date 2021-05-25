@@ -1,5 +1,8 @@
 package model;
 
+/**
+ * Classificação de um equipamento
+ */
 public class EquipamentoClassificacao {
 	private Integer id;
 	private String tipo;

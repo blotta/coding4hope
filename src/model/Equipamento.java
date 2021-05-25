@@ -1,5 +1,8 @@
 package model;
 
+/**
+ * Entidade que representa um equipamento
+ */
 public class Equipamento {
 	private Integer id;
 	private EquipamentoStatus status;

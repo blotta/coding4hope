@@ -3,14 +3,17 @@ package model;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * Entidade que identifica uma pessoa interagindo com o sistema
+ */
 public class Usuario {
-	private Integer id;
-	private String nome;
-	private String whatsapp;
-	private Date dataNascimento;
-	private ArrayList<Permissao> permissoes;
-	private ArrayList<Endereco> enderecos;
-	private ArrayList<Beneficiario> beneficiarios;
+	protected Integer id;
+	protected String nome;
+	protected String whatsapp;
+	protected Date dataNascimento;
+	protected ArrayList<Permissao> permissoes;
+	protected ArrayList<Endereco> enderecos;
+	protected ArrayList<Beneficiario> beneficiarios;
 
 	public Integer getId() {
 		return id;
@@ -55,4 +58,40 @@ public class Usuario {
 		this.beneficiarios = beneficiarios;
 	}
 	
+	/**
+	 * Cria uma SolicitacaoEmprestimo vinculada com esse usuario
+	 */
+	public void solicitarEmprestimo() {
+		
+	}
+	
+	/**
+	 * Cria uma SolicitacaoRenovacaoEmprestimo caso o usuario tenha um Emprestimo existente
+	 */
+	public void solicitarRenovacaoDeEmprestimo() {
+		
+	}
+	
+	/**
+	 * Cadastrar endereco para o usuario
+	 * @param endereco a adicionar
+	 */
+	public void cadastrarEndereco(Endereco endereco) {
+		
+	}
+	
+	/**
+	 * Cadastra um novo beneficiario para o usuario
+	 * @param beneficiario a adicionar
+	 */
+	public void cadastrarBeneficiario(Beneficiario beneficiario) {
+		
+	}
+	
+	/**
+	 * Considera esse usuario como um beneficiario
+	 */
+	public void tornarBeneficiario() {
+		
+	}
 }

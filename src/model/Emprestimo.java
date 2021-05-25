@@ -1,5 +1,8 @@
 package model;
 
+/**
+ * Registro de emprestimos
+ */
 public class Emprestimo {
 	private Integer id;
 	private Solicitacao solicitacao;
